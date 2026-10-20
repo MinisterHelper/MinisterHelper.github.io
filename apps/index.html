@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0e8">
+  <meta name="description" content="태양코딩이 만든 앱을 한곳에서 만나보세요. 말씀시계, 말씀을 담다, 모두보기, 모두변환, 나의 계산기, D머니의 공식 App Store 링크 모음입니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="태양코딩 · 앱 모음">
+  <meta property="og:description" content="작은 앱으로, 조금 더 편한 하루. 태양코딩 앱을 한곳에서 만나보세요.">
+  <meta property="og:url" content="https://ministerhelper.github.io/apps/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://ministerhelper.github.io/apps/assets/social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="태양코딩의 출시 앱 여섯 개">
+  <link rel="canonical" href="https://ministerhelper.github.io/apps/">
+  <link rel="icon" href="sun.svg" type="image/svg+xml">
+  <title>태양코딩 · 앱 모음</title>
+  <style>
+    :root{color-scheme:light;--paper:#f5f0e8;--ink:#292c29;--muted:#666d61;--accent:#a94829;--line:#dedbd1;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);line-height:1.5;-webkit-text-size-adjust:100%}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit}a{color:inherit;text-decoration:none}button{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+    .page{width:min(100% - 40px,520px);margin:0 auto;padding:28px 0 36px}.topline{display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:10px;font-weight:650;letter-spacing:.18em;color:var(--muted)}.share{display:grid;place-items:center;width:38px;height:38px;border:1px solid #d8d4ca;border-radius:50%;background:transparent;color:var(--ink)}.share:hover{background:#fff9}.share svg{width:17px;height:17px}
+    header{text-align:center;padding:18px 0 34px}.sun{width:74px;height:74px;margin:0 auto 16px;display:block}h1{font-size:34px;line-height:1.25;letter-spacing:-.055em;margin:0 0 12px;font-weight:750}.bio{font-size:14px;line-height:1.8;color:#666d61;margin:0}.bio strong{color:#41483d;font-weight:550}.section-head{display:flex;align-items:center;justify-content:space-between;margin:0 2px 12px;font-size:11px;letter-spacing:.015em;color:var(--muted)}.section-head h2{font-size:11px;font-weight:600;margin:0}.count{font-variant-numeric:tabular-nums}.app-list{display:grid;gap:11px}
+    .app-link{display:flex;align-items:center;gap:17px;min-height:100px;padding:17px 21px 17px 17px;background:#fffdf9;border:1px solid var(--line);border-radius:23px;box-shadow:0 3px 0 #ded8ce55;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}.app-link:hover{transform:translateY(-2px);border-color:#b0b4a3;box-shadow:0 7px 16px #3434270c}.app-link:active{transform:translateY(1px)}.app-link img{width:60px;height:60px;flex-shrink:0;border-radius:15px;border:1px solid #00000009;background:#eee;object-fit:cover}.app-copy{min-width:0;flex:1;display:flex;flex-direction:column;gap:4px}.app-copy strong{font-size:17px;font-weight:700;letter-spacing:-.035em}.app-copy>span{font-size:12px;line-height:1.65;color:#74776e;word-break:keep-all}.arrow{font-size:23px;line-height:1;color:#74796b;margin-left:2px}
+    .store-note{text-align:center;color:var(--muted);font-size:11px;margin:20px 0 26px}.store-note svg{width:12px;height:12px;vertical-align:-2px;margin-right:4px}.developer{display:block;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 8px;text-align:center;font-size:12px;color:#5d6556}.developer span{margin-left:6px;color:var(--muted)}footer{text-align:center;padding-top:28px;font-size:11px;color:#666d61}.footer-links{display:flex;justify-content:center;gap:22px;margin-bottom:18px}.footer-links a{padding:4px 0;border-bottom:1px solid #b9bdaf}.signature{letter-spacing:.14em;font-size:9px;color:#646c5e}.share-status{min-height:0;text-align:center;font-size:12px;color:var(--accent);margin:0}.share-status:not(:empty){margin:0 0 15px}.fallback{margin-bottom:18px}.fallback input{padding:12px;border:1px solid var(--line);border-radius:10px;width:100%;font:inherit;font-size:12px;background:#fff;color:var(--ink)}
+    @media(max-width:370px){.page{width:calc(100% - 28px)}.app-link{gap:13px;padding:15px 16px 15px 14px}.app-link img{width:52px;height:52px;border-radius:13px}.app-copy strong{font-size:16px}.app-copy>span{font-size:11px}}
+    @media(min-width:800px){.page{padding-top:34px;padding-bottom:42px}body{background-image:radial-gradient(#d3cfc1 0.6px,transparent .6px);background-size:22px 22px}.page{background:var(--paper);box-shadow:0 0 80px 55px var(--paper)}}
+    @media(prefers-reduced-motion:reduce){.app-link{transition:none}.app-link:hover{transform:none}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="topline"><span>SMALL APPS. EVERYDAY JOY.</span><button class="share" id="share" aria-label="이 페이지 공유하기" title="공유하기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V3m-4 4 4-4 4 4M5 12v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8"/></svg></button></div>
+    <header>
+      <img class="sun" src="sun.svg" width="74" height="74" alt="">
+      <h1>태양코딩</h1>
+      <p class="bio"><strong>작은 앱으로, 조금 더 편한 하루.</strong><br>직접 만들고 꾸준히 다듬는 앱들을 만나보세요.</p>
+    </header>
+    <p class="share-status" id="share-status" role="status" aria-live="polite"></p>
+    <div class="fallback" id="share-fallback" hidden><label for="share-url" class="bio">아래 주소를 복사해 주세요.</label><input id="share-url" readonly value="https://ministerhelper.github.io/apps/"></div>
+    <section aria-labelledby="apps-heading">
+      <div class="section-head"><h2 id="apps-heading">지금 만날 수 있는 앱</h2><span class="count">6 APPS</span></div>
+      <div class="app-list"><a class="app-link" href="https://apps.apple.com/kr/app/id6822553016" aria-label="말씀시계 App Store에서 보기"><img src="assets/6822553016.jpg" alt="" width="60" height="60" decoding="async"><span class="app-copy"><strong>말씀시계</strong><span>시간 속에서 만나는 오늘의 말씀</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="app-link" href="https://apps.apple.com/kr/app/id6822590383" aria-label="말씀을 담다 App Store에서 보기"><img src="assets/6822590383.jpg" alt="" width="60" height="60" decoding="async"><span class="app-copy"><strong>말씀을 담다</strong><span>사진에 말씀을 담아 나만의 엽서로</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="app-link" href="https://apps.apple.com/kr/app/id6818794073" aria-label="모두보기 App Store에서 보기"><img src="assets/6818794073.jpg" alt="" width="60" height="60" decoding="async"><span class="app-copy"><strong>모두보기</strong><span>다양한 파일을 한곳에서 미리 보기</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="app-link" href="https://apps.apple.com/kr/app/id6820398832" aria-label="모두변환 App Store에서 보기"><img src="assets/6820398832.jpg" alt="" width="60" height="60" decoding="async"><span class="app-copy"><strong>모두변환</strong><span>문서·사진·미디어를 필요한 형식으로</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="app-link" href="https://apps.apple.com/kr/app/id6816571383" aria-label="나의 계산기 App Store에서 보기"><img src="assets/6816571383.jpg" alt="" width="60" height="60" decoding="async"><span class="app-copy"><strong>나의 계산기</strong><span>일상의 계산과 나만의 기록 보관</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="app-link" href="https://apps.apple.com/kr/app/id6817610431" aria-label="D머니 App Store에서 보기"><img src="assets/6817610431.jpg" alt="" width="60" height="60" decoding="async"><span class="app-copy"><strong>D머니</strong><span>운행 기록과 요금 계산을 간편하게</span></span><span class="arrow" aria-hidden="true">↗</span></a></div>
+    </section>
+    <p class="store-note"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="4" y="1" width="8" height="14" rx="2"/><path d="M6 12h4"/></svg>앱을 누르면 공식 App Store 페이지로 이동해요.</p>
+    <a class="developer" href="https://apps.apple.com/kr/developer/id6808828707">App Store에서 태양코딩 보기 <span aria-hidden="true">↗</span></a>
+    <footer><div class="footer-links"><a href="https://ministerhelper.github.io/">고객센터</a><a href="mailto:taeyang1238@icloud.com">문의하기</a></div><span class="signature">MADE WITH CARE · TAEYANG CODING</span></footer>
+  </main>
+  <script>
+    document.getElementById('share').addEventListener('click',async()=>{
+      const title='태양코딩 · 앱 모음',url='https://ministerhelper.github.io/apps/';
+      const status=document.getElementById('share-status');
+      try{
+        if(navigator.share){await navigator.share({title,url});return;}
+        if(!navigator.clipboard)throw new Error('clipboard unavailable');
+        await navigator.clipboard.writeText(url);status.textContent='링크를 복사했어요. 원하는 곳에 붙여넣어 주세요.';
+      }catch(error){if(error.name==='AbortError')return;document.getElementById('share-fallback').hidden=false;const input=document.getElementById('share-url');input.focus();input.select();}
+    });
+  </script>
+</body>
+</html>

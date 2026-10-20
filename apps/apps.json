@@ -1,0 +1,60 @@
+{
+  "verifiedAtKST": "2026-10-20",
+  "source": "Apple iTunes lookup, country=kr, developer6808828707",
+  "apps": [
+    {
+      "id": "6822553016",
+      "name": "말씀시계",
+      "storeName": "말씀시계",
+      "url": "https://apps.apple.com/kr/app/id6822553016",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/c5/4f/61c54fae-d3d0-3df6-e1e7-2d415ad2ce20/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg",
+      "description": "시간 속에서 만나는 오늘의 말씀",
+      "liveVersion": "1.2"
+    },
+    {
+      "id": "6822590383",
+      "name": "말씀을 담다",
+      "storeName": "말씀을 담다",
+      "url": "https://apps.apple.com/kr/app/id6822590383",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/33/20/7f3320af-d9d8-f44c-1b07-42b38b482203/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "description": "사진에 말씀을 담아 나만의 엽서로",
+      "liveVersion": "1.1"
+    },
+    {
+      "id": "6818794073",
+      "name": "모두보기",
+      "storeName": "모두보기",
+      "url": "https://apps.apple.com/kr/app/id6818794073",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/d6/e2/aad6e258-61e7-4037-57a7-761a09a665a7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "description": "다양한 파일을 한곳에서 미리 보기",
+      "liveVersion": "1.5"
+    },
+    {
+      "id": "6820398832",
+      "name": "모두변환",
+      "storeName": "모두변환",
+      "url": "https://apps.apple.com/kr/app/id6820398832",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/1e/a1/2c1ea198-5315-955b-e319-f3b595f8f24f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "description": "문서·사진·미디어를 필요한 형식으로",
+      "liveVersion": "1.2"
+    },
+    {
+      "id": "6816571383",
+      "name": "나의 계산기",
+      "storeName": "나의 계산기",
+      "url": "https://apps.apple.com/kr/app/id6816571383",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/ce/a2/cecea296-8b81-e7b7-2462-0cf184d341df/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "description": "일상의 계산과 나만의 기록 보관",
+      "liveVersion": "1.6"
+    },
+    {
+      "id": "6817610431",
+      "name": "D머니",
+      "storeName": "D머니 택시 앱 미터기",
+      "url": "https://apps.apple.com/kr/app/id6817610431",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/62/cf/1762cf84-0303-fcc4-167b-9976a9c36a2f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "description": "운행 기록과 요금 계산을 간편하게",
+      "liveVersion": "1.7"
+    }
+  ]
+}
